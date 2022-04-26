@@ -32,6 +32,15 @@
 
         layer_raise {
             bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans                &trans        &trans        &trans        &trans        &trans      &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                &trans        &trans        &trans        &trans        &trans      &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                &trans        &trans        &trans        &trans        &trans      &trans
+                         &trans  &trans  &trans                &trans        &trans        &trans
+            >;
+        };
+
+        layer_lower {
+            bindings = <
          &kp N1        &kp N2        &kp N3          &kp N4          &kp N5           &kp N6          &kp N7     &kp N8         &kp N9           &kp N0  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
       &kp GRAVE  &kp K_VOL_UP  &kp K_VOL_DN           &none    &kp UP_ARROW            &none           &none      &none          &none  &kp PRINTSCREEN    &kp LEFT_BRACE    &kp RIGHT_BRACE
  &kp LEFT_SHIFT         &mo 2         &mo 2  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW           &none      &none  &kp BACKSLASH        &kp MINUS         &kp EQUAL    &kp RIGHT_SHIFT
@@ -39,7 +48,7 @@
             >;
         };
 
-        layer_lower {
+        layer_Layer__3 {
             bindings = <
               &kp            &kp            &kp F3      &kp F4     &kp F5   &kp F6          &kp F1  &kp F2         &kp F3   &kp F4   &kp F5   &kp F6
    &kp LEFT_SHIFT     &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp PG_UP   &trans          &kp F7  &kp F8         &kp F9  &kp F10  &kp F11  &kp F12
@@ -48,7 +57,7 @@
             >;
         };
 
-        layer_Layer__3 {
+        layer_Layer__4 {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
  &trans  &trans  &trans  &trans  &trans  &trans                &trans        &trans        &trans        &trans        &trans      &trans
