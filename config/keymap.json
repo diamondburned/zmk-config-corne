@@ -14,27 +14,27 @@
          "&kp TAB",  "&kp Q",  "&kp W",  "&kp E",     "&kp R",  "&kp T",            "&kp Y",     "&kp U",     "&kp I",   "&kp O",    "&kp P", "&kp BACKSPACE",
          "&kp ESC",  "&kp A",  "&kp S",  "&kp D",     "&kp F",  "&kp G",            "&kp H",     "&kp J",     "&kp K",   "&kp L", "&kp SEMI",      "&kp APOS",
        "&kp LSHFT",  "&kp Z",  "&kp X",  "&kp C",     "&kp V",  "&kp B",            "&kp N",     "&kp M", "&kp COMMA", "&kp DOT", "&kp FSLH",     "&kp ENTER",
-                                         "&mo 1", "&kp SPACE",  "&mo 2",            "&mo 3", "&kp MINUS", "&kp EQUAL"
+                                         "&mo 2", "&kp SPACE",  "&mo 1",            "&mo 3", "&kp MINUS", "&kp EQUAL"
     ], [
-            "&mo 3", "&trans", "&trans", "&trans", "&trans",        "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&kp LSHIFT", "&trans", "&trans", "&trans", "&trans",        "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-        "&kp LCTRL", "&trans", "&trans", "&trans", "&trans",        "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-                                         "&trans", "&trans", "&kp LEFT_META",            "&mo 3", "&trans", "&trans"
+            "&mo 3", "&trans", "&trans",        "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&kp LSHIFT", "&trans", "&trans",        "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+        "&kp LCTRL", "&trans", "&trans",        "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+                                         "&kp LEFT_META", "&trans",  "&none",            "&mo 3", "&trans", "&trans"
     ], [
                "&kp N1",           "&kp N2",       "&kp N3",         "&kp N4",         "&kp N5",          "&kp N6",           "&kp N7",    "&kp N8",  "&kp N9",          "&kp N0", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET",
             "&kp GRAVE",     "&kp K_VOL_DN", "&kp K_VOL_UP",          "&none",   "&kp UP_ARROW",      "&kp DELETE",            "&none",     "&none",   "&none", "&kp PRINTSCREEN",   "&kp LEFT_BRACE",   "&kp RIGHT_BRACE",
        "&kp LEFT_SHIFT", "&kp LEFT_CONTROL",        "&none", "&kp LEFT_ARROW", "&kp DOWN_ARROW", "&kp RIGHT_ARROW",            "&none",     "&none",   "&none",   "&kp BACKSLASH",        "&kp MINUS",         "&kp EQUAL",
-                                                                      "&none",         "&trans",           "&none",            "&none", "&kp SPACE", "&kp DEL"
+                                                                      "&none",         "&trans",   "&kp LEFT_META",            "&none", "&kp SPACE", "&kp DEL"
     ], [
-                  "&none",         "&mo 4",            "&none",      "&none",     "&none", "&kp C_BRIGHTNESS_INC",           "&kp F1", "&kp F2", "&kp F3",        "&kp F4",  "&kp F5",  "&kp F6",
-         "&kp LEFT_SHIFT",    "&kp K_PREV", "&kp K_PLAY_PAUSE", "&kp K_NEXT", "&kp PG_UP", "&kp C_BRIGHTNESS_DEC",           "&kp F7", "&kp F8", "&kp F9",       "&kp F10", "&kp F11", "&kp F12",
+                  "&none",         "&mo 4",            "&none",      "&none",     "&none", "&kp C_BRIGHTNESS_INC",           "&kp F7", "&kp F8", "&kp F9",       "&kp F10", "&kp F11", "&kp F12",
+         "&kp LEFT_SHIFT",    "&kp K_PREV", "&kp K_PLAY_PAUSE", "&kp K_NEXT", "&kp PG_UP", "&kp C_BRIGHTNESS_DEC",           "&kp F1", "&kp F2", "&kp F3",        "&kp F4",  "&kp F5",  "&kp F6",
        "&kp LEFT_CONTROL", "&kp LEFT_META",     "&kp LEFT_ALT",   "&kp HOME", "&kp PG_DN",              "&kp END",            "&none",  "&none",  "&none", "&kp BACKSLASH",   "&none",   "&mo 4",
                                                                     "&trans",    "&trans",                "&none",           "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&reset", "&bt BT_SEL 0", "&bt BT_SEL 1",           "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4", "&bt BT_CLR",
-       "&trans", "&trans", "&trans", "&trans", "&bt BT_SEL 2", "&bt BT_SEL 3",                 "&reset",       "&trans",       "&trans",       "&trans",       "&trans",     "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&bt BT_SEL 4",   "&bt BT_CLR",                 "&trans",       "&trans",       "&trans",       "&trans",       "&trans",     "&trans",
-                                     "&trans",       "&trans",       "&trans",                 "&trans",       "&trans",       "&trans"
+       "&trans", "&trans", "&trans",       "&reset", "&bt BT_SEL 0", "&bt BT_SEL 1",           "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4", "&bt BT_CLR",
+       "&trans", "&trans", "&trans", "&out OUT_BLE", "&bt BT_SEL 2", "&bt BT_SEL 3",                 "&reset", "&out OUT_BLE", "&out OUT_USB",       "&trans",       "&trans",     "&trans",
+       "&trans", "&trans", "&trans", "&out OUT_USB", "&bt BT_SEL 4",   "&bt BT_CLR",                 "&trans",       "&trans",       "&trans",       "&trans",       "&trans",     "&trans",
+                                           "&trans",       "&trans",       "&trans",                 "&trans",       "&trans",       "&trans"
     ]
   ]
 }
